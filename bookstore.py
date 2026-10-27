@@ -8,7 +8,9 @@ class Book(object):
         self.price = price
 
     # Task 1: add a method get_title() that returns the title
-
+def get_title(self):
+    """returns the title of the book"""
+    return self.title
 
     # Task 2: add a method get_price() that returns the price
 
@@ -24,6 +26,7 @@ book = Book('Persuasion', 'Jane Austen', 8.99)
 # Tests: when your task is done, remove the # at the start of its line and run the file
 
 # print(book.get_title())    # Task 1
+print(book.get_title()) 
 
 # print(book.get_price())    # Task 2
 
