@@ -26,6 +26,7 @@ book = Book('Persuasion', 'Jane Austen', 8.99)
 # Tests: when your task is done, remove the # at the start of its line and run the file
 
 # print(book.get_title())    # Task 1
+print(book.get_title()) 
 
 # print(book.get_price())    # Task 2
 
